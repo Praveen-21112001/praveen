@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            background-image: url("about.jfif");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        #about {
+            text-align: center;
+            padding: 2em;
+        }
+
+        #about h2 {
+            color: #4CAF50;
+            font-size: 2em;
+        }
+
+        #about p {
+            color: #000000;
+            font-size: 1.2em;
+        }
+
+        #about {
+            animation: fadeIn 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, atque laudantium, est quis asperiores laborum id, ratione exercitationem et aliquam laboriosam rerum odit architecto dolorum praesentium dicta quo. Consectetur, asperiores?</p>
+        </section>
+
+        <section class="products">
+            <div class="product">
+                <img src="carror.jfif" alt="Carrot">
+                <h3>Carrot</h3>
+                <p>₹150.00 per kg</p>
+                <button onclick="addToCart('Carrot', 150.00)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pattoes.jfif" alt="Potato">
+                <h3>Potato</h3>
+                <p>₹40.00 per kg</p>
+                <button onclick="addToCart('Potato', 40.00)">Add to Cart</button>
+            </div>
+            </section>
+    </main>
+    <script src="shop.js"></script>
+</body>
+</html>
